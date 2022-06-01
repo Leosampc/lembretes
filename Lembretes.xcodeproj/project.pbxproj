@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B6847A42847F202001036C0 /* RemoveReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6847A32847F202001036C0 /* RemoveReminderViewController.swift */; };
+		5B6847A62847F75D001036C0 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6847A52847F75D001036C0 /* UITableView+Extension.swift */; };
+		5B8F44E128466A8B00E2D2DB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F44E028466A8B00E2D2DB /* NotificationController.swift */; };
+		5B8F44E42846F70B00E2D2DB /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F44E32846F70B00E2D2DB /* Date+Extension.swift */; };
+		5B8F44E62846FBCD00E2D2DB /* ReminderDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F44E52846FBCD00E2D2DB /* ReminderDao.swift */; };
+		5B9898FC28445762004928AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9898FB28445762004928AD /* AppDelegate.swift */; };
+		5B9898FE28445762004928AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9898FD28445762004928AD /* SceneDelegate.swift */; };
+		5B98990028445762004928AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9898FF28445762004928AD /* ViewController.swift */; };
+		5B98990328445762004928AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B98990128445762004928AD /* Main.storyboard */; };
+		5B98990528445762004928AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B98990428445762004928AD /* Assets.xcassets */; };
+		5B98990828445762004928AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B98990628445762004928AD /* LaunchScreen.storyboard */; };
+		5B989911284457FF004928AD /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B989910284457FF004928AD /* Reminder.swift */; };
+		5B98991428446AB1004928AD /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B98991328446AB1004928AD /* SubscribeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B6847A32847F202001036C0 /* RemoveReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveReminderViewController.swift; sourceTree = "<group>"; };
+		5B6847A52847F75D001036C0 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		5B8F44E028466A8B00E2D2DB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5B8F44E32846F70B00E2D2DB /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		5B8F44E52846FBCD00E2D2DB /* ReminderDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDao.swift; sourceTree = "<group>"; };
+		5B9898F828445762004928AD /* Lembretes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lembretes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9898FB28445762004928AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B9898FD28445762004928AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B9898FF28445762004928AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B98990228445762004928AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B98990428445762004928AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B98990728445762004928AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B98990928445762004928AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B989910284457FF004928AD /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		5B98991328446AB1004928AD /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B9898F528445762004928AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B6847A22847E4C3001036C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B98990128445762004928AD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B8F44E22846F6CC00E2D2DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5B8F44E32846F70B00E2D2DB /* Date+Extension.swift */,
+				5B6847A52847F75D001036C0 /* UITableView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5B9898EF28445762004928AD = {
+			isa = PBXGroup;
+			children = (
+				5B9898FA28445762004928AD /* Lembretes */,
+				5B9898F928445762004928AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B9898F928445762004928AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9898F828445762004928AD /* Lembretes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9898FA28445762004928AD /* Lembretes */ = {
+			isa = PBXGroup;
+			children = (
+				5B98990F284457D8004928AD /* Models */,
+				5B6847A22847E4C3001036C0 /* Views */,
+				5B989912284468C8004928AD /* Controllers */,
+				5B8F44E22846F6CC00E2D2DB /* Extensions */,
+				5B9898FB28445762004928AD /* AppDelegate.swift */,
+				5B9898FD28445762004928AD /* SceneDelegate.swift */,
+				5B98990428445762004928AD /* Assets.xcassets */,
+				5B98990628445762004928AD /* LaunchScreen.storyboard */,
+				5B98990928445762004928AD /* Info.plist */,
+			);
+			path = Lembretes;
+			sourceTree = "<group>";
+		};
+		5B98990F284457D8004928AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B989910284457FF004928AD /* Reminder.swift */,
+				5B8F44E52846FBCD00E2D2DB /* ReminderDao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B989912284468C8004928AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B9898FF28445762004928AD /* ViewController.swift */,
+				5B98991328446AB1004928AD /* SubscribeViewController.swift */,
+				5B8F44E028466A8B00E2D2DB /* NotificationController.swift */,
+				5B6847A32847F202001036C0 /* RemoveReminderViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B9898F728445762004928AD /* Lembretes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B98990C28445762004928AD /* Build configuration list for PBXNativeTarget "Lembretes" */;
+			buildPhases = (
+				5B9898F428445762004928AD /* Sources */,
+				5B9898F528445762004928AD /* Frameworks */,
+				5B9898F628445762004928AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lembretes;
+			productName = Lembretes;
+			productReference = 5B9898F828445762004928AD /* Lembretes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B9898F028445762004928AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5B9898F728445762004928AD = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 5B9898F328445762004928AD /* Build configuration list for PBXProject "Lembretes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B9898EF28445762004928AD;
+			productRefGroup = 5B9898F928445762004928AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B9898F728445762004928AD /* Lembretes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B9898F628445762004928AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B98990828445762004928AD /* LaunchScreen.storyboard in Resources */,
+				5B98990528445762004928AD /* Assets.xcassets in Resources */,
+				5B98990328445762004928AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B9898F428445762004928AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8F44E128466A8B00E2D2DB /* NotificationController.swift in Sources */,
+				5B98990028445762004928AD /* ViewController.swift in Sources */,
+				5B9898FC28445762004928AD /* AppDelegate.swift in Sources */,
+				5B9898FE28445762004928AD /* SceneDelegate.swift in Sources */,
+				5B8F44E42846F70B00E2D2DB /* Date+Extension.swift in Sources */,
+				5B6847A42847F202001036C0 /* RemoveReminderViewController.swift in Sources */,
+				5B989911284457FF004928AD /* Reminder.swift in Sources */,
+				5B6847A62847F75D001036C0 /* UITableView+Extension.swift in Sources */,
+				5B8F44E62846FBCD00E2D2DB /* ReminderDao.swift in Sources */,
+				5B98991428446AB1004928AD /* SubscribeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B98990128445762004928AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B98990228445762004928AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B98990628445762004928AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B98990728445762004928AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B98990A28445762004928AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B98990B28445762004928AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B98990D28445762004928AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R34Q66Z56H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lembretes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.leonardo.Lembretes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B98990E28445762004928AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R34Q66Z56H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lembretes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.leonardo.Lembretes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B9898F328445762004928AD /* Build configuration list for PBXProject "Lembretes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B98990A28445762004928AD /* Debug */,
+				5B98990B28445762004928AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B98990C28445762004928AD /* Build configuration list for PBXNativeTarget "Lembretes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B98990D28445762004928AD /* Debug */,
+				5B98990E28445762004928AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B9898F028445762004928AD /* Project object */;
+}
